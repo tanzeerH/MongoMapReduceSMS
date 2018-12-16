@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SMSTool.jnlp">
+  <information>
+    <title>SMSTool</title>
+    <vendor>hossa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SMSTool.jar" size="22029" download="eager" />
+    <jar href="lib\mongo-java-driver-2.10.1-sources.jar" size="275961" download="eager" />
+    <jar href="lib\mongo-java-driver-2.10.1.jar" size="398520" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SMSTool" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="smstool.SMSTool"  name="SMSTool" />
+  <update check="always"/>
+</jnlp>
